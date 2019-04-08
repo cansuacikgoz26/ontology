@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/dfJHTdmCsJH7mIkSikpaD#"
+     xml:base="http://webprotege.stanford.edu/project/dfJHTdmCsJH7mIkSikpaD"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/dfJHTdmCsJH7mIkSikpaD"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8CF4QYbmBZj8myEZxBVSBY -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R8CF4QYbmBZj8myEZxBVSBY">
+        <rdfs:label>imdb</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCkyutUHkAsEitdtSkfibgy -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RCkyutUHkAsEitdtSkfibgy">
+        <rdfs:label>country</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1Azc3Ohj9m38nLyB0HoVx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1Azc3Ohj9m38nLyB0HoVx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RgiCs6fZ626hSEVVLhHSrl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cri 2018</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R70AyHKPYPbBPEyG192ccXo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R70AyHKPYPbBPEyG192ccXo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R77hip0xFwm3iLcHAMLFpAq"/>
+        <webprotege:R8CF4QYbmBZj8myEZxBVSBY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.2</webprotege:R8CF4QYbmBZj8myEZxBVSBY>
+        <webprotege:RCkyutUHkAsEitdtSkfibgy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UK - USA</webprotege:RCkyutUHkAsEitdtSkfibgy>
+        <rdfs:label>Three Billboards Outside Ebbing, Missouri</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt5027774/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77hip0xFwm3iLcHAMLFpAq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77hip0xFwm3iLcHAMLFpAq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RgiCs6fZ626hSEVVLhHSrl"/>
+        <rdfs:label>Cri 2017</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZstoQSDw1ABJjCFGT2CoL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZstoQSDw1ABJjCFGT2CoL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R1Azc3Ohj9m38nLyB0HoVx"/>
+        <webprotege:R8CF4QYbmBZj8myEZxBVSBY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.5</webprotege:R8CF4QYbmBZj8myEZxBVSBY>
+        <webprotege:RCkyutUHkAsEitdtSkfibgy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</webprotege:RCkyutUHkAsEitdtSkfibgy>
+        <rdfs:label>White Boy Rick</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt4537896/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8PVCWFifWiJb7CPQRP3jNA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8PVCWFifWiJb7CPQRP3jNA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Ls9JJnmwdaj9KRrlPhrL4"/>
+        <webprotege:R8CF4QYbmBZj8myEZxBVSBY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.4</webprotege:R8CF4QYbmBZj8myEZxBVSBY>
+        <webprotege:RCkyutUHkAsEitdtSkfibgy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA - India - Hong Kong - China - UK</webprotege:RCkyutUHkAsEitdtSkfibgy>
+        <rdfs:label>Ghost in the Shell</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt1219827/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8mNFCNfaT3VoKtA6xbnReL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8mNFCNfaT3VoKtA6xbnReL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCdsBpGcZ6czLokId6w76Wt"/>
+        <webprotege:R8CF4QYbmBZj8myEZxBVSBY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.3</webprotege:R8CF4QYbmBZj8myEZxBVSBY>
+        <webprotege:RCkyutUHkAsEitdtSkfibgy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thailand - USA</webprotege:RCkyutUHkAsEitdtSkfibgy>
+        <rdfs:label>The Asian Connection</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt3187378/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Ls9JJnmwdaj9KRrlPhrL4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Ls9JJnmwdaj9KRrlPhrL4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDtWjsLWflyqPaN40mksTG"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sci 2017</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFEbwGHOd33uqFYMGfFrrT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBFEbwGHOd33uqFYMGfFrrT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCdsBpGcZ6czLokId6w76Wt"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.4</dc:date>
+        <webprotege:RCkyutUHkAsEitdtSkfibgy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</webprotege:RCkyutUHkAsEitdtSkfibgy>
+        <rdfs:label>Live by Night</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt2361317/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJ2A6w6c7mZDLwo0QDULBp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBJ2A6w6c7mZDLwo0QDULBp">
+        <rdfs:label>Film Types</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0eCl6Ac5PsQqFdQdQumjK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC0eCl6Ac5PsQqFdQdQumjK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Ls9JJnmwdaj9KRrlPhrL4"/>
+        <webprotege:R8CF4QYbmBZj8myEZxBVSBY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.6</webprotege:R8CF4QYbmBZj8myEZxBVSBY>
+        <webprotege:RCkyutUHkAsEitdtSkfibgy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</webprotege:RCkyutUHkAsEitdtSkfibgy>
+        <rdfs:label>Life</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt5442430/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCdsBpGcZ6czLokId6w76Wt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCdsBpGcZ6czLokId6w76Wt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RgiCs6fZ626hSEVVLhHSrl"/>
+        <rdfs:label>Cri 2016</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzUi9BvHqb481gGOWbdOXF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCzUi9BvHqb481gGOWbdOXF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R77hip0xFwm3iLcHAMLFpAq"/>
+        <rdfs:label>Good Time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDtWjsLWflyqPaN40mksTG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDtWjsLWflyqPaN40mksTG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJ2A6w6c7mZDLwo0QDULBp"/>
+        <rdfs:label>Science Fiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REF318wYyAswmq57JwZ2FD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/REF318wYyAswmq57JwZ2FD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RQTHJAXWqUiHmMiZVyqjTz"/>
+        <webprotege:R8CF4QYbmBZj8myEZxBVSBY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</webprotege:R8CF4QYbmBZj8myEZxBVSBY>
+        <webprotege:RCkyutUHkAsEitdtSkfibgy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UK</webprotege:RCkyutUHkAsEitdtSkfibgy>
+        <rdfs:label>The Call Up</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt3923388/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJZ5ERd4S9ZzAuYRWNrwc0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RJZ5ERd4S9ZzAuYRWNrwc0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RQTHJAXWqUiHmMiZVyqjTz"/>
+        <webprotege:R8CF4QYbmBZj8myEZxBVSBY rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</webprotege:R8CF4QYbmBZj8myEZxBVSBY>
+        <webprotege:RCkyutUHkAsEitdtSkfibgy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</webprotege:RCkyutUHkAsEitdtSkfibgy>
+        <rdfs:label>Deadpool</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt1431045/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQTHJAXWqUiHmMiZVyqjTz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQTHJAXWqUiHmMiZVyqjTz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDtWjsLWflyqPaN40mksTG"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sci 2016</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RftSTM6dUyFLLAUlxT41xp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RftSTM6dUyFLLAUlxT41xp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RwEpiiIRg03Rzo7j6VNPUa"/>
+        <webprotege:R8CF4QYbmBZj8myEZxBVSBY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.2</webprotege:R8CF4QYbmBZj8myEZxBVSBY>
+        <webprotege:RCkyutUHkAsEitdtSkfibgy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA - New Zealand</webprotege:RCkyutUHkAsEitdtSkfibgy>
+        <rdfs:label>Mortal Engines</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt1571234/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgiCs6fZ626hSEVVLhHSrl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RgiCs6fZ626hSEVVLhHSrl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJ2A6w6c7mZDLwo0QDULBp"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crime Drama</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtNv8rDIlLHqnAmPaT6tHD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RtNv8rDIlLHqnAmPaT6tHD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R1Azc3Ohj9m38nLyB0HoVx"/>
+        <webprotege:R8CF4QYbmBZj8myEZxBVSBY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.8</webprotege:R8CF4QYbmBZj8myEZxBVSBY>
+        <webprotege:RCkyutUHkAsEitdtSkfibgy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</webprotege:RCkyutUHkAsEitdtSkfibgy>
+        <rdfs:label>The Old Man &amp; The Gun</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt2837574/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RwEpiiIRg03Rzo7j6VNPUa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RwEpiiIRg03Rzo7j6VNPUa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDtWjsLWflyqPaN40mksTG"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sci 2018</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rz5DOfmM9Do87N3RlRTknV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rz5DOfmM9Do87N3RlRTknV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RwEpiiIRg03Rzo7j6VNPUa"/>
+        <webprotege:R8CF4QYbmBZj8myEZxBVSBY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.9</webprotege:R8CF4QYbmBZj8myEZxBVSBY>
+        <webprotege:RCkyutUHkAsEitdtSkfibgy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UK - USA</webprotege:RCkyutUHkAsEitdtSkfibgy>
+        <rdfs:label>Annihilation</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.imdb.com/title/tt2798920/"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.10) https://github.com/owlcs/owlapi -->
+
